@@ -69,11 +69,6 @@ let randomTargetsForGhosts = [
     },
 ];
 
-// for (let i = 0; i < map.length; i++) {
-//     for (let j = 0; j < map[0].length; j++) {
-//         map[i][j] = 2;
-//     }
-// }
 
 let createNewPacman = () => {
     pacman = new Pacman(
