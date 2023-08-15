@@ -101,6 +101,7 @@ let onGhostCollision = () => {
     lives--;
     restartPacmanAndGhosts();
     if (lives == 0) {
+        if(!alert('Game Over NOOB!')){window.location.reload();}
     }
 };
 
